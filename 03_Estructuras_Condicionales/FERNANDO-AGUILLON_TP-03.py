@@ -30,8 +30,11 @@
 #     print("Adulto/a")
 
 # Ejercicio 5
-contrasenia = len(input("Ingrese una contraseña: "))
-if contrasenia < 8 or contrasenia >14 :
-    print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
-else:
-    print("Ha ingresado una contraseña correcta")
+# contrasenia = len(input("Ingrese una contraseña: "))
+# if contrasenia < 8 or contrasenia >14 :
+#     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
+# else:
+#     print("Ha ingresado una contraseña correcta")
+
+# Ejercicio 6
+ 
