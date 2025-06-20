@@ -65,6 +65,33 @@
 # print(f"\nLa temperatura en Fahrenheit es: {celsius_a_fahrenheit(float(input("Ingresá la temperatura en grados Celsius: "))):.2f}°F")
 
 # Ejercicio 10
-def calcular_promedio(a, b, c):
-    return (a + b + c) / 3
-print(f"\nEl promedio de los tres números es: {calcular_promedio(float(input("Ingresá el primer número: ")), float(input("Ingresá el segundo número: ")), float(input("Ingresá el tercer número: "))):.2f}")
+# def calcular_promedio(a, b, c):
+#     return (a + b + c) / 3
+# print(f"\nEl promedio de los tres números es: {calcular_promedio(float(input("Ingresá el primer número: ")), float(input("Ingresá el segundo número: ")), float(input("Ingresá el tercer número: "))):.2f}")
+def funcion_c(vector, tamanio_vector):
+
+    max = vector[0]
+
+    for i in range(0, tamanio_vector): 
+
+        if vector[i] > max:
+
+            max = vector[i]
+
+    return max
+
+ 
+
+tamanio_vector = 3
+
+vector = [0] * tamanio_vector  
+
+vector[0] = 4
+
+vector[1] = 6
+
+vector[2] = 1
+
+ 
+
+print(funcion_c(vector, tamanio_vector))
